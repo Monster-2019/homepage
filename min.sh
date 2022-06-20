@@ -5,7 +5,6 @@ dir2='styles'
 outdir='./lib/'
 function compression () {
     dirlist=`ls $1`
-    echo $dirlist
     for file in $dirlist
     do
         if [ ${file##*.} = "js" ]; then

@@ -8,7 +8,7 @@ import {
 	ShapePath,
 	Vector2,
 	Vector3
-} from './three.module.js';
+} from './three.module.min.js';
 
 var SVGLoader = function ( manager ) {
 

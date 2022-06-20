@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Monster-2019/homepage/styles/reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Monster-2019/homepage/styles/normalize.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Monster-2019/homepage/styles/main.css">
-    <script src="https://cdn.jsdelivr.net/gh/Monster-2019/homepage/js/three.module.js"></script>
     <style>
         body {
             background-color: #f0f0f0;
@@ -20,9 +19,9 @@
 </head>
 <body>
     <script type="module">
-        import * as THREE from './js/three.module.js';
-        import { OrbitControls } from './js/OrbitControls.js';
-        import { SVGLoader } from './js/SVGLoader.js';
+        import * as THREE from './lib/js/three.module.min.js';
+        import { OrbitControls } from './lib/js/OrbitControls.min.js';
+        import { SVGLoader } from './lib/js/SVGLoader.min.js';
         let camera, scene, renderer;
         init();
         animate();
